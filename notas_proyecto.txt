@@ -1,1 +1,19 @@
 NOTAS DEL PROYECTO
+Crear entidad 
+>php bin/console make:entity
+  >Categoria
+  se Crean dos archivos en 
+  src/Entity/Categoria.php
+  src/Repository/CategoriaRepository.php
+  new property
+  >nombre
+  field type
+  field length
+  nullable(yes/no)
+
+Crear controller
+>php bin/console make:controller
+    >Categoria
+    Crear dos archivos
+    src/Controller/CategoriaController.php
+    templates/categoria/index.html.twig
